@@ -1,0 +1,263 @@
+# What protocol to use when performing git operations. Supported values: ssh, https
+git_protocol: https
+# What editor gh should run when creating issues, pull requests, etc. If blank, will refer to environment.
+editor:
+# When to interactively prompt. This is a global config that cannot be overridden by hostname. Supported values: enabled, disabled
+prompt: enabled
+# A pager program to send command output to, e.g. "less". Set the value to "cat" to disable the pager.
+pager:
+# Aliases allow you to create nicknames for gh commands
+aliases:
+
+    # a alias
+    # b browse
+    # c codespace
+    # d -
+    # e release
+    # f -
+    # g gist
+    # h auth
+    # i issue
+    # j project
+    # kg gpg-key
+    # ks ssh-key
+    # l label
+    # m -
+    # n run
+    # o config
+    # p pr
+    # q -
+    # r repo 
+    # s search
+    # t secret
+    # u status
+    # v variable
+    # w workflow
+    # x extension
+    # y -
+    # z -
+
+    # api
+    # cache
+    # org
+    # ruleset
+
+    a: alias
+    ad: alias delete
+    ai: alias import
+    al: alias list
+    as: alias set
+
+    b: browse
+    bb: browse --branch
+    bc: browse --commit
+    be: browse --releases
+    bn: browse --no-browser
+    bp: browse --projects
+    br: browse --repo
+    bs: browse --settings
+    bw: browse --wiki
+
+    # c: codespace cp
+    c: codespace
+    ca: codespace delete-asset
+    cc: codespace create
+    cd: codespace delete
+    ce: codespace edit
+    cg: codespace logs
+    ch: codespace ssh
+    cj: codespace jupyter
+    cl: codespace list
+    co: codespace code
+    cp: codespace ports
+    cr: codespace rebuild
+    cs: codespace stop
+    cu: codespace upload
+    cv: codespace view
+    cw: codespace download
+
+    e: release
+    ea: release delete-asset
+    ec: release create
+    ed: release delete
+    ee: release edit
+    el: release list
+    eled: release list --exclude-drafts
+    elepr: release list --exclude-pre-releases
+    eledepr: release list --exclude-drafts --exclude-pre-releases
+    eu: release upload
+    ev: release view
+    ew: release download
+
+    g: gist
+    gc: gist create
+    gd: gist delete
+    ge: gist edit
+    gl: gist list
+    go: gist clone
+    gr: gist rename
+    gv: gist view
+
+    h: auth
+    hg: auth setup-git
+    hi: auth login
+    ho: auth logout
+    hr: auth refresh
+    hs: auth status
+    ht: auth token
+
+    # i: issue develop
+    # i: issue unlock
+    # i: issue unpin
+    i: issue
+    ic: issue create
+    id: issue delete
+    ie: issue edit
+    il: issue list
+    ilsa: issue list --state all
+    ilsc: issue list --state closed
+    il: issue lock
+    im: issue comment
+    io: issue close
+    ip: issue pin
+    ir: issue reopen
+    is: issue status
+    it: issue transfer
+    iv: issue view
+    ivw: issue view --web
+
+    jc: project create
+    jd: project delete
+    je: project edit
+    jfc: project field-create
+    jfd: project field-delete
+    jfl: project fied-list
+    jia: project item-add
+    jic: project item-create
+    jid: project item-delete
+    jie: project item-edit
+    jil: project item-list
+    jir: project item-archive
+    jl: project list
+    jo: project close
+    jv: project view
+    jy: project copy
+
+    kg: gpg-key
+    kga: gpg-key add
+    kgd: gpg-key delete
+    kgl: gpg-key list
+    
+    ks: ssh-key
+    ksa: ssh-key add
+    ksd: ssh-key delete
+    ksl: ssh-key list
+
+    l: label
+    lc: label create
+    ld: label delete
+    le: label edit
+    ll: label list
+    lo: label clone
+
+    n: run
+    nc: run cancel
+    nd: run delete
+    nl: run list
+    nm: run match
+    nr: run rerun
+    nv: run view
+    nw: run download
+
+    o: config
+    og: config get
+    ol: config list
+    os: config set
+
+    # p: pr checks
+    # p: pr comment
+    # p: pr lock
+    # p: pr ready
+    # p: pr reopen
+    # p: pr unlock
+    p: pr
+    pc: pr create
+    pcam: pr create --assignee @me
+    pcamdt: pr create --assignee @me --draft --title
+    pcamt: pr create --assignee @me --title
+    pcd: pr create --draft
+    pct: pr create --title
+    pcw: pr create --web
+    pd: pr diff
+    pe: pr edit
+    pl: pr list
+    plsa: pr list --state all
+    plsc: pr list --state closed
+    pm: pr merge
+    po: pr close
+    pr: pr review
+    ps: pr status
+    pt: pr checkout
+    pv: pr view
+    pvw: pr view --web
+
+    r: repo
+    ra: repo archive
+    rc: repo create
+    rd: repo delete
+    re: repo edit
+    rf: repo fork
+    rfc: repo fork $1 --clone
+    rk: repo deploy-key
+    rl: repo list
+    rlf: repo list --fork
+    ro: repo clone
+    rr: repo rename
+    rs: repo sync
+    rt: repo set-default
+    ru: repo unarchive
+    rv: repo view
+    rvw: repo view --web
+
+    s: search
+    sc: search commits
+    si: search issues
+    so: search code
+    sp: search prs
+    sr: search repos
+
+    t: secret
+    td: secret delete
+    tl: secret list
+    ts: secret set
+
+    u: status
+    ue: status --exclude
+    uo: status --org
+
+    v: variable
+    vd: variable delete
+    vl: variable list
+    vs: variable set
+
+    w: workflow
+    wd: workflow disable
+    we: workflow enable
+    wl: workflow list
+    wr: workflow run
+    wv: workflow view
+
+    x: extension
+    xb: extension browse
+    xc: extension create
+    xe: extension exec
+    xi: extension install
+    xl: extension list
+    xr: extension remove
+    xs: extension search
+    xu: extension upgrade
+
+# The path to a unix socket through which send HTTP connections. If blank, HTTP traffic will be handled by net/http.DefaultTransport.
+http_unix_socket:
+# What web browser gh should use when opening URLs. If blank, will refer to environment.
+browser:
