@@ -1,5 +1,11 @@
 aliases:
 
+    # api
+    # gpg-key
+    # org
+    # ruleset
+    # ssh-key
+
     # a alias
     # b browse
     # c codespace
@@ -10,8 +16,7 @@ aliases:
     # h auth
     # i issue
     # j project
-    # kg gpg-key
-    # ks ssh-key
+    # k cache
     # l label
     # m -
     # n run
@@ -27,11 +32,6 @@ aliases:
     # x extension
     # y -
     # z -
-
-    # api
-    # cache
-    # org
-    # ruleset
 
     a: alias
     ad: alias delete
@@ -49,7 +49,6 @@ aliases:
     bs: browse --settings
     bw: browse --wiki
 
-    # c: codespace cp
     c: codespace
     ca: codespace delete-asset
     cc: codespace create
@@ -66,6 +65,7 @@ aliases:
     cu: codespace upload
     cv: codespace view
     cw: codespace download
+    # c: codespace cp
 
     e: release
     ea: release delete-asset
@@ -97,10 +97,6 @@ aliases:
     hs: auth status
     ht: auth token
 
-    # i: issue develop
-    # i: issue unlock
-    # i: issue unpin
-    i: issue
     ic: issue create
     id: issue delete
     ie: issue edit
@@ -116,7 +112,11 @@ aliases:
     it: issue transfer
     iv: issue view
     ivw: issue view --web
-
+    # i: issue develop
+    # i: issue unlock
+    # i: issue unpin
+ 
+    i: issue
     jc: project create
     jd: project delete
     je: project edit
@@ -134,15 +134,13 @@ aliases:
     jv: project view
     jy: project copy
 
-    kg: gpg-key
-    kga: gpg-key add
-    kgd: gpg-key delete
-    kgl: gpg-key list
-    
-    ks: ssh-key
-    ksa: ssh-key add
-    ksd: ssh-key delete
-    ksl: ssh-key list
+    k: cache
+    kd: cache delete
+    kda: cache delete --all
+    kl: cache list
+    kll: cache list --limit
+    klo: cache list --order
+    kls: cache list --sort
 
     l: label
     lc: label create
@@ -165,12 +163,6 @@ aliases:
     ol: config list
     os: config set
 
-    # p: pr checks
-    # p: pr comment
-    # p: pr lock
-    # p: pr ready
-    # p: pr reopen
-    # p: pr unlock
     p: pr
     pc: pr create
     pcam: pr create --assignee @me
@@ -191,6 +183,12 @@ aliases:
     pt: pr checkout
     pv: pr view
     pvw: pr view --web
+    # p: pr checks
+    # p: pr comment
+    # p: pr lock
+    # p: pr ready
+    # p: pr reopen
+    # p: pr unlock
 
     r: repo
     ra: repo archive

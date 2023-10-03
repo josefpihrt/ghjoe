@@ -11,3 +11,33 @@ Essential goal of Ghalias is to turns [GitHub CLI](https://cli.github.com/manual
 - Copy [list of aliases](https://raw.githubusercontent.com/josefpihrt/ghalias/main/config.yml) and paste it to your GitHub CLI config file. 
 
 On Windows config file is located at `<USER_PROFILE>/AppData/Roaming/GitHub CLI/config.yml`.
+
+## Commands Aliases
+
+| Alias | Command |
+| --- | --- |
+| `a` | `alias` |
+| `b` | `browse` |
+| `c` | `codespace` |
+| `d` | - |
+| `e` | `release` |
+| `f` | - |
+| `g` | `gist` |
+| `h` | `auth` |
+| `i` | `issue` |
+| `j` | `project` |
+| `k` | `cache` |
+| `l` | `label` |
+| `m` | - |
+| `n` | `run` |
+| `o` | `config` |
+| `p` | `pr` |
+| `r` | `repo` |
+| `s` | `search` |
+| `t` | `secret` |
+| `u` | `status` |
+| `v` | `variable` |
+| `w` | `workflow` |
+| `x` | `extension` |
+| `y` | - |
+| `z` | - |
