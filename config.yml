@@ -65,7 +65,6 @@ aliases:
     cu: codespace upload
     cv: codespace view
     cw: codespace download
-    # c: codespace cp
 
     e: release
     ea: release delete-asset

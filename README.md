@@ -32,6 +32,7 @@ On Windows config file is located at `<USER_PROFILE>/AppData/Roaming/GitHub CLI/
 | `n` | `run` |
 | `o` | `config` |
 | `p` | `pr` |
+| `q` | `-` |
 | `r` | `repo` |
 | `s` | `search` |
 | `t` | `secret` |
