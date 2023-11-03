@@ -6,32 +6,12 @@ aliases:
     # ruleset
     # ssh-key
 
-    # a alias
-    # b browse
-    # c codespace
-    # d -
-    # e release
-    # f -
-    # g gist
-    # h auth
-    # i issue
-    # j project
-    # k cache
-    # l label
-    # m -
-    # n run
-    # o config
-    # p pr
-    # q -
-    # r repo 
-    # s search
-    # t secret
-    # u status
-    # v variable
-    # w workflow
-    # x extension
-    # y -
-    # z -
+    # d
+    # f
+    # m
+    # q
+    # y
+    # z
 
     ah: alias --help
     bh: browse --help
