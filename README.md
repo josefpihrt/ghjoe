@@ -8,9 +8,17 @@ Essential goal of Ghalias is to turns [GitHub CLI](https://cli.github.com/manual
 
 ## Usage
 
-- Copy [list of aliases](https://raw.githubusercontent.com/josefpihrt/ghalias/main/config.yml) and paste it to your GitHub CLI config file. 
+Import list of aliases to your GitHub CLI config file:
 
-On Windows config file is located at `<USER_PROFILE>/AppData/Roaming/GitHub CLI/config.yml`.
+```sh
+curl https://raw.githubusercontent.com/josefpihrt/ghalias/main/config.yml | gh alias import -
+```
+
+Alternatively, overwrite existing aliases:
+
+```sh
+curl https://raw.githubusercontent.com/josefpihrt/ghalias/main/config.yml | gh alias import --clobber -
+```
 
 ## Commands Aliases
 
