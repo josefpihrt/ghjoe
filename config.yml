@@ -13,27 +13,6 @@ aliases:
     # y
     # z
 
-    ah: alias --help
-    bh: browse --help
-    ch: codespace --help
-    eh: release --help
-    gh: gist --help
-    hh: auth --help
-    ih: issue --help
-    jh: project --help
-    kh: cache --help
-    lh: label --help
-    nh: run --help
-    oh: config --help
-    ph: pr --help
-    rh: repo  --help
-    sh: search --help
-    th: secret --help
-    uh: status --help
-    vh: variable --help
-    wh: workflow --help
-    xh: extension --help
-
     a: alias
     ad: alias delete
     ai: alias import
