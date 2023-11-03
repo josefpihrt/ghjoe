@@ -1,18 +1,5 @@
 aliases:
 
-    # api
-    # gpg-key
-    # org
-    # ruleset
-    # ssh-key
-
-    # d
-    # f
-    # m
-    # q
-    # y
-    # z
-
     ah: alias --help
     bh: browse --help
     ch: codespace --help
