@@ -1,5 +1,3 @@
-aliases:
-
     ah: alias --help
     bh: browse --help
     ch: codespace --help
