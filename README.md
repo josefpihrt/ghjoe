@@ -19,20 +19,16 @@ On Windows config file is located at `<USER_PROFILE>/AppData/Roaming/GitHub CLI/
 | `a` | `alias` |
 | `b` | `browse` |
 | `c` | `codespace` |
-| `d` | - |
 | `e` | `release` |
-| `f` | - |
 | `g` | `gist` |
 | `h` | `auth` |
 | `i` | `issue` |
 | `j` | `project` |
 | `k` | `cache` |
 | `l` | `label` |
-| `m` | - |
 | `n` | `run` |
 | `o` | `config` |
 | `p` | `pr` |
-| `q` | `-` |
 | `r` | `repo` |
 | `s` | `search` |
 | `t` | `secret` |
@@ -40,5 +36,3 @@ On Windows config file is located at `<USER_PROFILE>/AppData/Roaming/GitHub CLI/
 | `v` | `variable` |
 | `w` | `workflow` |
 | `x` | `extension` |
-| `y` | - |
-| `z` | - |
