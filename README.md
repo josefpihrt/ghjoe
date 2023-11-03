@@ -14,7 +14,7 @@ Import list of aliases to your GitHub CLI config file:
 curl https://raw.githubusercontent.com/josefpihrt/ghalias/main/config.yml | gh alias import -
 ```
 
-Alternatively, overwrite existing aliases:
+Optionally, overwrite existing aliases:
 
 ```sh
 curl https://raw.githubusercontent.com/josefpihrt/ghalias/main/config.yml | gh alias import --clobber -
