@@ -55,6 +55,7 @@ aliases:
     cd: codespace delete
     ce: codespace edit
     cg: codespace logs
+    ch: codespace ssh
     cj: codespace jupyter
     cl: codespace list
     co: codespace code
@@ -64,7 +65,6 @@ aliases:
     cu: codespace upload
     cv: codespace view
     cw: codespace download
-    # ch: codespace ssh
 
     e: release
     ea: release delete-asset
@@ -166,6 +166,7 @@ aliases:
     pct: pr create --title
     pcw: pr create --web
     pd: pr diff
+    pdno: pr diff --name-only
     pe: pr edit
     pk: pr checkout
     pl: pr list
