@@ -55,7 +55,6 @@ aliases:
     cd: codespace delete
     ce: codespace edit
     cg: codespace logs
-    ch: codespace ssh
     cj: codespace jupyter
     cl: codespace list
     co: codespace code
@@ -65,6 +64,7 @@ aliases:
     cu: codespace upload
     cv: codespace view
     cw: codespace download
+    # ch: codespace ssh
 
     e: release
     ea: release delete-asset
@@ -96,26 +96,21 @@ aliases:
     hs: auth status
     ht: auth token
 
+    i: issue
     ic: issue create
     id: issue delete
     ie: issue edit
     il: issue list
     ilsa: issue list --state all
     ilsc: issue list --state closed
-    il: issue lock
-    im: issue comment
     io: issue close
-    ip: issue pin
-    ir: issue reopen
     is: issue status
-    it: issue transfer
+    it: issue comment
     iv: issue view
+    ivc: issue view --comments
     ivw: issue view --web
-    # i: issue develop
-    # i: issue unlock
-    # i: issue unpin
- 
-    i: issue
+
+    j: project
     jc: project create
     jd: project delete
     je: project edit
@@ -172,22 +167,19 @@ aliases:
     pcw: pr create --web
     pd: pr diff
     pe: pr edit
+    pk: pr checkout
     pl: pr list
     plsa: pr list --state all
     plsc: pr list --state closed
     pm: pr merge
     po: pr close
-    pr: pr review
     ps: pr status
-    pt: pr checkout
+    pt: pr comment
     pv: pr view
+    pvc: pr view --comments
     pvw: pr view --web
-    # p: pr checks
-    # p: pr comment
-    # p: pr lock
-    # p: pr ready
-    # p: pr reopen
-    # p: pr unlock
+    pw: pr review
+    py: pr ready
 
     r: repo
     ra: repo archive
