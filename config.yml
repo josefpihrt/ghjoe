@@ -43,9 +43,9 @@ aliases:
     cv: codespace view
 
     e: release
-    ea: release delete-asset #TODO
     ec: release create
     ed: release delete
+    eda: release delete-asset
     ee: release edit
     el: release list
     eled: release list --exclude-drafts
@@ -65,11 +65,11 @@ aliases:
     gv: gist view
 
     h: auth
-    hg: auth setup-git #TODO
     hl: auth login
     ho: auth logout
     hr: auth refresh
     hs: auth status
+    hsg: auth setup-git
     ht: auth token
 
     i: issue
@@ -161,16 +161,16 @@ aliases:
     ra: repo archive
     rc: repo create
     rd: repo delete
+    rdk: repo deploy-key
     re: repo edit
     rf: repo fork
     rfc: repo fork $1 --clone
-    rk: repo deploy-key #TODO
     rl: repo list
     rlf: repo list --fork
     ro: repo clone
     rr: repo rename
     rs: repo sync
-    rt: repo set-default #TODO
+    rsd: repo set-default
     ru: repo unarchive
     rv: repo view
     rvw: repo view --web
