@@ -23,14 +23,13 @@ aliases:
     bb: browse --branch
     bc: browse --commit
     be: browse --releases
-    bn: browse --no-browser
+    bnb: browse --no-browser
     bp: browse --projects
     br: browse --repo
     bs: browse --settings
     bw: browse --wiki
 
     c: codespace
-    ca: codespace delete-asset
     cc: codespace create
     cd: codespace delete
     ce: codespace edit
@@ -41,12 +40,10 @@ aliases:
     cp: codespace ports
     cr: codespace rebuild
     cs: codespace stop
-    cu: codespace upload
     cv: codespace view
-    cw: codespace download
 
     e: release
-    ea: release delete-asset
+    ea: release delete-asset #TODO
     ec: release create
     ed: release delete
     ee: release edit
@@ -68,7 +65,7 @@ aliases:
     gv: gist view
 
     h: auth
-    hg: auth setup-git
+    hg: auth setup-git #TODO
     hi: auth login
     ho: auth logout
     hr: auth refresh
@@ -168,13 +165,13 @@ aliases:
     re: repo edit
     rf: repo fork
     rfc: repo fork $1 --clone
-    rk: repo deploy-key
+    rk: repo deploy-key #TODO
     rl: repo list
     rlf: repo list --fork
     ro: repo clone
     rr: repo rename
     rs: repo sync
-    rt: repo set-default
+    rt: repo set-default #TODO
     ru: repo unarchive
     rv: repo view
     rvw: repo view --web
