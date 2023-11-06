@@ -55,7 +55,7 @@ Each alias is created according to several simple rules:
    - For example `issue`  is represented by `i`.
 
 2. **Each subcommand/parameter/value is represented by combination of first letter of words it consists of.**
-   - For example subcommand `release delete-asset` is represented by `rda`.
+   - For example subcommand `release delete-asset` is represented by `eda`.
    - For example parameter `--exclude-pre-releases` is represented by `epr`.
 
 3. **Parameters are sorted in alphabetical order.**
