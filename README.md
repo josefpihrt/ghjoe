@@ -47,7 +47,7 @@ curl https://raw.githubusercontent.com/josefpihrt/ghjoe/main/config.yml | gh ali
 | `w` | `workflow` |
 | `x` | `extension` |
 
-## Aliases Creation Rules
+## Alias Creation Rules
 
 Each alias is created according to several simple rules:
 
