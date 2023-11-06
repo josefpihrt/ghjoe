@@ -134,6 +134,10 @@ pl: pr list
 plsa: pr list --state all
 plsc: pr list --state closed
 pm: pr merge
+pmas: pr merge --admin --squash
+pmm: pr merge --merge
+pmr: pr merge --rebase
+pms: pr merge --squash
 po: pr close
 ps: pr status
 pt: pr comment
