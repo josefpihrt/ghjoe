@@ -1,0 +1,202 @@
+aliases:
+
+    a: alias
+    ad: alias delete
+    ai: alias import
+    al: alias list
+    as: alias set
+
+    b: browse
+    bb: browse --branch
+    bc: browse --commit
+    be: browse --releases
+    bnb: browse --no-browser
+    bp: browse --projects
+    br: browse --repo
+    bs: browse --settings
+    bw: browse --wiki
+
+    c: codespace
+    cc: codespace create
+    cd: codespace delete
+    ce: codespace edit
+    cg: codespace logs
+    cj: codespace jupyter
+    cl: codespace list
+    co: codespace code
+    cp: codespace ports
+    cr: codespace rebuild
+    cs: codespace stop
+    cv: codespace view
+
+    e: release
+    ec: release create
+    ed: release delete
+    eda: release delete-asset
+    ee: release edit
+    el: release list
+    eled: release list --exclude-drafts
+    elepr: release list --exclude-pre-releases
+    eledepr: release list --exclude-drafts --exclude-pre-releases
+    eu: release upload
+    ev: release view
+    ew: release download
+
+    g: gist
+    gc: gist create
+    gd: gist delete
+    ge: gist edit
+    gl: gist list
+    go: gist clone
+    gr: gist rename
+    gv: gist view
+
+    h: auth
+    hl: auth login
+    ho: auth logout
+    hr: auth refresh
+    hs: auth status
+    hsg: auth setup-git
+    ht: auth token
+
+    i: issue
+    ic: issue create
+    id: issue delete
+    ie: issue edit
+    il: issue list
+    ilsa: issue list --state all
+    ilsc: issue list --state closed
+    io: issue close
+    is: issue status
+    it: issue comment
+    iv: issue view
+    ivc: issue view --comments
+    ivw: issue view --web
+
+    j: project
+    jc: project create
+    jd: project delete
+    je: project edit
+    jfc: project field-create
+    jfd: project field-delete
+    jfl: project fied-list
+    jia: project item-add
+    jic: project item-create
+    jid: project item-delete
+    jie: project item-edit
+    jil: project item-list
+    jl: project list
+    jo: project close
+    jv: project view
+    jy: project copy
+
+    k: cache
+    kd: cache delete
+    kda: cache delete --all
+    kl: cache list
+    kll: cache list --limit
+    klo: cache list --order
+    kls: cache list --sort
+
+    l: label
+    lc: label create
+    ld: label delete
+    le: label edit
+    ll: label list
+    lo: label clone
+
+    n: run
+    nc: run cancel
+    nd: run delete
+    nl: run list
+    nll: run list --limit
+    nm: run match
+    nr: run rerun
+    nv: run view
+    nw: run download
+
+    o: config
+    og: config get
+    ol: config list
+    os: config set
+
+    p: pr
+    pc: pr create
+    pcam: pr create --assignee @me
+    pcamdt: pr create --assignee @me --draft --title
+    pcamt: pr create --assignee @me --title
+    pcd: pr create --draft
+    pct: pr create --title
+    pcw: pr create --web
+    pd: pr diff
+    pdno: pr diff --name-only
+    pe: pr edit
+    pk: pr checkout
+    pl: pr list
+    plsa: pr list --state all
+    plsc: pr list --state closed
+    pm: pr merge
+    po: pr close
+    ps: pr status
+    pt: pr comment
+    pv: pr view
+    pvc: pr view --comments
+    pvw: pr view --web
+    pw: pr review
+    py: pr ready
+
+    r: repo
+    ra: repo archive
+    rc: repo create
+    rd: repo delete
+    rdk: repo deploy-key
+    re: repo edit
+    rf: repo fork
+    rfc: repo fork $1 --clone
+    rl: repo list
+    rlf: repo list --fork
+    ro: repo clone
+    rr: repo rename
+    rs: repo sync
+    rsd: repo set-default
+    ru: repo unarchive
+    rv: repo view
+    rvw: repo view --web
+
+    s: search
+    sc: search commits
+    si: search issues
+    so: search code
+    sp: search prs
+    sr: search repos
+
+    t: secret
+    td: secret delete
+    tl: secret list
+    ts: secret set
+
+    u: status
+    ue: status --exclude
+    uo: status --org
+
+    v: variable
+    vd: variable delete
+    vl: variable list
+    vs: variable set
+
+    w: workflow
+    wd: workflow disable
+    we: workflow enable
+    wl: workflow list
+    wr: workflow run
+    wv: workflow view
+
+    x: extension
+    xb: extension browse
+    xc: extension create
+    xe: extension exec
+    xi: extension install
+    xl: extension list
+    xr: extension remove
+    xs: extension search
+    xu: extension upgrade
