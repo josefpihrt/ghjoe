@@ -6,20 +6,20 @@ GH Joe is a managed list of [GitHub CLI](https://cli.github.com/manual/gh) [alia
 
 Main idea is that each command should be represented by shortest possible sequence of characters (an alias) where the alias does not have to be remembered but it can be mnemotechnically derived from the full command.
 
-For a full list of aliases please see [config.yml](https://github.com/josefpihrt/ghjoe/blob/main/config.yml).
+For a full list of aliases please see [config.yml](https://github.com/josefpihrt/ghjoe/blob/main/aliases.yml).
 
 ## Installation
 
 Import list of aliases to your GitHub CLI config file:
 
 ```sh
-curl https://raw.githubusercontent.com/josefpihrt/ghjoe/main/config.yml | gh alias import -
+curl https://raw.githubusercontent.com/josefpihrt/ghjoe/main/aliases.yml | gh alias import -
 ```
 
 Optionally, overwrite existing aliases:
 
 ```sh
-curl https://raw.githubusercontent.com/josefpihrt/ghjoe/main/config.yml | gh alias import --clobber -
+curl https://raw.githubusercontent.com/josefpihrt/ghjoe/main/aliases.yml | gh alias import --clobber -
 ```
 
 ## Commands Aliases
