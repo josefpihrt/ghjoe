@@ -1,23 +1,25 @@
-# Ghalias
-
-Managed list of GitHub CLI aliases
+# GH Joe
 
 ## Summary
 
-Essential goal of Ghalias is to turns [GitHub CLI](https://cli.github.com/manual/gh) command into shortest possible sequence of characters where the alias does not have to be remembered but it can be mnemotechnically derived from the full command.
+GH Joe is a managed list of [GitHub CLI](https://cli.github.com/manual/gh) [aliases](https://cli.github.com/manual/gh_alias).
+
+Main idea is that each command should be represented by shortest possible sequence of characters (an alias) where the alias does not have to be remembered but it can be mnemotechnically derived from the full command.
+
+For a full list of aliases please see [config.yml](https://github.com/josefpihrt/ghjoe/blob/main/config.yml).
 
 ## Usage
 
 Import list of aliases to your GitHub CLI config file:
 
 ```sh
-curl https://raw.githubusercontent.com/josefpihrt/ghalias/main/config.yml | gh alias import -
+curl https://raw.githubusercontent.com/josefpihrt/ghjoe/main/config.yml | gh alias import -
 ```
 
 Optionally, overwrite existing aliases:
 
 ```sh
-curl https://raw.githubusercontent.com/josefpihrt/ghalias/main/config.yml | gh alias import --clobber -
+curl https://raw.githubusercontent.com/josefpihrt/ghjoe/main/config.yml | gh alias import --clobber -
 ```
 
 ## Commands Aliases
@@ -44,3 +46,17 @@ curl https://raw.githubusercontent.com/josefpihrt/ghalias/main/config.yml | gh a
 | `v` | `variable` |
 | `w` | `workflow` |
 | `x` | `extension` |
+
+## Aliases Creation Rules
+
+Each alias is created according to several simple rules:
+
+1. **Each root command is represented by a single letter.**
+   - For example `issue`  is represented by `i`.
+
+2. **Each subcommand/parameter/value is represented by combination of first letter of words it consists of.**
+   - For example subcommand `release delete-asset` is represented by `rda`.
+   - For example parameter `--exclude-pre-releases` is represented by `epr`.
+
+3. **Parameters are sorted in alphabetical order.**
+   - For example command `pr create --assignee @me --draft --title` is represented by `pcamdt`.
