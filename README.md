@@ -6,7 +6,7 @@ GH Joe is a managed list of [GitHub CLI](https://cli.github.com/manual/gh) [alia
 
 Main idea is that each command should be represented by shortest possible sequence of characters (an alias) where the alias does not have to be remembered but it can be mnemotechnically derived from the full command.
 
-For a full list of aliases please see [config.yml](https://github.com/josefpihrt/ghjoe/blob/main/aliases.yml).
+For a full list of aliases please see [aliases.yml](https://github.com/josefpihrt/ghjoe/blob/main/aliases.yml).
 
 ## Installation
 
