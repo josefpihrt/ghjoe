@@ -8,7 +8,7 @@ Main idea is that each command should be represented by shortest possible sequen
 
 For a full list of aliases please see [config.yml](https://github.com/josefpihrt/ghjoe/blob/main/config.yml).
 
-## Usage
+## Installation
 
 Import list of aliases to your GitHub CLI config file:
 
