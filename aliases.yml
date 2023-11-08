@@ -14,18 +14,23 @@ br: browse --repo
 bs: browse --settings
 bw: browse --wiki
 
-c: codespace
-cc: codespace create
-cd: codespace delete
-ce: codespace edit
-cg: codespace logs
-cj: codespace jupyter
-cl: codespace list
-co: codespace code
-cp: codespace ports
-cr: codespace rebuild
-cs: codespace stop
-cv: codespace view
+c: copilot
+cc: copilot config
+ce: copilot explain
+cs: copilot suggest
+
+d: codespace
+dc: codespace create
+dd: codespace delete
+de: codespace edit
+dg: codespace logs
+dj: codespace jupyter
+dl: codespace list
+do: codespace code
+dp: codespace ports
+dr: codespace rebuild
+ds: codespace stop
+dv: codespace view
 
 e: release
 ec: release create
