@@ -18,6 +18,7 @@ c: copilot
 cc: copilot config
 ce: copilot explain
 cs: copilot suggest
+cst: copilot suggest --target
 
 d: codespace
 dc: codespace create
