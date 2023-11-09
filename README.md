@@ -28,8 +28,7 @@ curl https://raw.githubusercontent.com/josefpihrt/ghjoe/main/aliases.yml | gh al
 | --- | --- |
 | `a` | `alias` |
 | `b` | `browse` |
-| `c` | `copilot` |
-| `d` | `codespace` |
+| `c` | `codespace` |
 | `e` | `release` |
 | `g` | `gist` |
 | `h` | `auth` |
@@ -40,6 +39,7 @@ curl https://raw.githubusercontent.com/josefpihrt/ghjoe/main/aliases.yml | gh al
 | `n` | `run` |
 | `o` | `config` |
 | `p` | `pr` |
+| `q` | `copilot` |
 | `r` | `repo` |
 | `s` | `search` |
 | `t` | `secret` |
