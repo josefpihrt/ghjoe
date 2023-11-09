@@ -140,6 +140,7 @@ pl: pr list
 plsa: pr list --state all
 plsc: pr list --state closed
 pm: pr merge
+pma: pr merge --admin
 pmas: pr merge --admin --squash
 pmm: pr merge --merge
 pmr: pr merge --rebase
@@ -204,6 +205,7 @@ xb: extension browse
 xc: extension create
 xe: extension exec
 xi: extension install
+xif: extension install --force
 xl: extension list
 xr: extension remove
 xs: extension search
