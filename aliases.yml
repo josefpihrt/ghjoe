@@ -24,7 +24,7 @@ cl: codespace list
 co: codespace code
 cp: codespace ports
 cr: codespace rebuild
-cs: codespace stop
+ct: codespace stop
 cv: codespace view
 
 e: release
