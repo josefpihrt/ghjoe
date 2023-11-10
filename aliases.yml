@@ -148,6 +148,12 @@ pvw: pr view --web
 pw: pr review
 py: pr ready
 
+q: copilot
+qc: copilot config
+qe: copilot explain
+qs: copilot suggest
+qst: copilot suggest --target
+
 r: repo
 ra: repo archive
 rc: repo create
