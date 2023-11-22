@@ -63,7 +63,6 @@ id: issue delete
 ie: issue edit
 il: issue list
 ill: issue list --label
-illl: issue list --label $1 --label $2
 ilsa: issue list --state all
 ilsc: issue list --state closed
 io: issue close
