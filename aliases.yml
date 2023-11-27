@@ -61,6 +61,8 @@ i: issue
 ic: issue create
 id: issue delete
 ie: issue edit
+ieaa: issue edit $1 --add-assignee $2
+ieaam: issue edit $1 --add-assignee @me
 il: issue list
 ill: issue list --label
 ilsa: issue list --state all
